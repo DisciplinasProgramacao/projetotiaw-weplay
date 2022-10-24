@@ -29,10 +29,12 @@
       <p>|</p>
       <a href="#Publishers">Notícias</a>
     </div>
-    <div class="input">
-      <img src="imagens/search.png" />
-      <input placeholder="Pesquisar Games" />
-    </div>
+    <nav class="input">
+      <form id="searchbox" method="get" action="/search" autocomplete="off">
+          <input name="q" type="text" size="15" placeholder="Pesquisar amigos ..." />
+          <input id="button-submit" type="submit" value=" " />
+      </form>
+  </nav>
   </header>
   <main>
     <section id="destaque" class="destaque">
