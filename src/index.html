@@ -9,7 +9,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
+  <link rel="icon" href="../assets/icon1500.png">
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -17,7 +17,7 @@
   <header>
     <div>
       <a class="logo" href="/">
-        <img src="imagens/logo.jfif" />
+        <img src="../assets/icon500.png" />
       </a>
     </div>
     <div class="links">
@@ -28,11 +28,17 @@
       <a href="#plataformas">Plataformas</a>
       <p>|</p>
       <a href="#Publishers">Notícias</a>
+      <p>|</p>
+      <a href="login.html">Entrar</a>
+      <p>|</p>
+      <a href="sign-up-page.html">Registrar</a>
     </div>
-    <div class="input">
-      <img src="imagens/search.png" />
-      <input placeholder="Pesquisar Games" />
-    </div>
+    <nav class="input">
+      <form id="searchbox" method="get" action="/search" autocomplete="off">
+          <input name="q" type="text" size="15" placeholder="Pesquisar amigos ..." />
+          <input id="button-submit" type="submit" value=" " />
+      </form>
+  </nav>
   </header>
   <main>
     <section id="destaque" class="destaque">
@@ -57,7 +63,7 @@
                 </iframe>
                 <div class="about">
                   <div class="about-texts">
-                    <h1>Good of War 
+                    <h1>God of War 
 
                     </h1>
                     <p>
@@ -318,10 +324,10 @@
         </div>
         <div class="card">
 
-          <h6><b>Nitendo</b></h6>
+          <h6><b>Nintendo</b></h6>
 
-          <img src="nitendo.png">
-          <ul class="nitendo">
+          <img src="../assets/nitendo.png">
+          <ul class="nintendo">
             <li><b>Principais jogos</b></li>
             <li>The Legend of Zelda: A Link to the Past</li>
             <li>Super Mario World</li>
@@ -349,7 +355,7 @@
 
           <h6><b>SONY</b></h6>
 
-          <img src="gg.jpg">
+          <img src="../assets/gg.jpg">
           <ul class="publi">
             <li><b>God of War Ragnarok</b></li>
             <p1>Sony divulga jogos que chegam ao 3<p1>
@@ -370,7 +376,7 @@
 
           <h6><b>EA Sports</b></h6>
 
-          <img src="brasil.jpg">
+          <img src="../assets/brasil.jpg">
           <ul class="publi">
             <li><b> Brasil leva mundial de Fifa</b></li>
             <p1>Vitória brasileira</p1>
@@ -390,7 +396,7 @@
 
           <h6><b>Riot Games</b></h6>
 
-          <img src="lol.jpg">
+          <img src="../assets/lol.jpg">
           <ul class="publi">
             <li><b>League of Legends</b></li>
             <p1>Lil Nas X lança<p1>

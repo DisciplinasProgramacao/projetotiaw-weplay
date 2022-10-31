@@ -771,7 +771,7 @@ input:focus::-moz-placeholder {
     --secondary-color: #190fe6;
   
     --white:#ffd500;
-    --black: #656a84;
+    --black: #000000;
   }
   
   * {
@@ -786,7 +786,7 @@ input:focus::-moz-placeholder {
   }
   
   body {
-    background-color: #6c7086;
+    background-color: #060607;
     -webkit-font-smoothing: antialiased;
   }
   
@@ -822,7 +822,7 @@ input:focus::-moz-placeholder {
   }
   
   #Lançamentos {
-    background-color:  #6c7086;
+    background-color:  #06070b;
     height: 130vh;
     max-height: fit-content;
     align-items: center;
@@ -830,7 +830,7 @@ input:focus::-moz-placeholder {
   }
   
   #Publishers {
-    background-color: #6c7086;
+    background-color: #0d0d12;
     height: 85vh;
     max-height: fit-content;
     align-items: center;
@@ -838,7 +838,7 @@ input:focus::-moz-placeholder {
   }
   
   #plataformas {
-    background-color:  #6c7086;
+    background-color:  #050505;
     height: 85vh;
     max-height: fit-content;
     align-items: center;
@@ -886,7 +886,7 @@ input:focus::-moz-placeholder {
   
   header .links a {
     margin: 0 5px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(21, 8, 8);
     color: rgb(255, 251, 3);
   }
   

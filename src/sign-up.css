@@ -6,6 +6,8 @@ html {
   body {
     font-family: "Poppins", sans-serif;
     height: 100vh;
+    background-image: url("../assets/mariobg.jpg");
+    background-size: contain;
   }
   
   a {
@@ -37,7 +39,6 @@ html {
     width: 100%;
     min-height: 100%;
     padding: 20px;
-    background-color: orange;
   }
   
   #formContent {
