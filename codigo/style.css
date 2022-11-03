@@ -90,9 +90,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 1px solid rgb(0, 0, 0);
     height: 60px;
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(65, 65, 65);
 }
 
 header .logo {
@@ -105,6 +104,30 @@ header .logo img {
     margin-top: 0%;
     width: 90px;
     height: 60px;
+}
+
+header .links {
+    display: flex;
+    flex-direction: row;
+}
+
+header .links a {
+    text-decoration: none;
+    margin: 0 5px;
+    background-color: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+header .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .input img {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
 }
 
 #searchbox {
@@ -152,56 +175,6 @@ input:focus::-moz-placeholder {
 
 #button-submit:hover {
     background: url(http://4.bp.blogspot.com/-6S4K8eHPM-c/VEQdf7l84GI/AAAAAAAAAls/j7_kGSpkIfg/s1600/search-icon-hover.png);
-}
-
-header {
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    height: 60px;
-    background-color: rgb(65, 65, 65);
-}
-
-header .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header .logo img {
-    margin-top: 0%;
-    width: 90px;
-    height: 60px;
-}
-
-header .links {
-    display: flex;
-    flex-direction: row;
-}
-
-header .links a {
-    margin: 0 5px;
-    background-color: rgb(65, 65, 65);
-    color: rgb(255, 255, 255);
-}
-
-header .input {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header .input img {
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
 }
 
 
@@ -653,24 +626,6 @@ header .input img {
 }
 
 @media (min-width: 320px) and (max-width: 800px) {
-    header {
-        width: 100%;
-        display: block;
-        flex-direction: column;
-        height: 70px;
-    }
-    header .logo img {
-        margin-top: 0%;
-        width: 50px;
-        height: 25px;
-    }
-    header .links {
-        display: flex;
-        flex-direction: row;
-    }
-    header .input {
-        display: none;
-    }
     .destaque {
         display: flex;
         flex-direction: column;
@@ -881,12 +836,6 @@ section {
     align-items: center;
     justify-content: center;
 }
-
-
-/*HEADER*/
-
-
-/*HEADER FIM*/
 
 
 /*CARROUSEL*/
@@ -1232,24 +1181,6 @@ section {
 }
 
 @media (min-width: 320px) and (max-width: 800px) {
-    header {
-        width: 100%;
-        display: block;
-        flex-direction: column;
-        height: 70px;
-    }
-    header .logo img {
-        margin-top: 0%;
-        width: 50px;
-        height: 25px;
-    }
-    header .links {
-        display: flex;
-        flex-direction: row;
-    }
-    header .input {
-        display: none;
-    }
     .destaque {
         display: flex;
         flex-direction: column;
