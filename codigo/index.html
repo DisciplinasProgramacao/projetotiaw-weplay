@@ -2,168 +2,191 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WePlay</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WePlay</title>
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="icon" href="../assets/icon1500.png">
+  <link rel="icon" href="../assets/logo1500.png">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <div>
-            <a class="logo" href="index.html">
-                <img src="imagens\logo.jpg" />
-            </a>
-        </div>
-        <div class="links">
-            <a href="#destaque">Destaques</a>
-            <p>|</p>
-            <a href="#Lançamentos">Lançamentos</a>
-            <p>|</p>
-            <a href="#plataformas">Plataformas</a>
-            <p>|</p>
-            <a href="#Publishers">Notícias</a>
-        </div>
-        <nav class="input">
-            <form id="searchbox" method="get" action="/search" autocomplete="off">
-                <input name="q" type="text" size="15" placeholder="Pesquisar amigos ..." />
-                <input id="button-submit" type="submit" value=" " />
-            </form>
-        </nav>
-    </header>
-    <main>
-        <section id="destaque" class="destaque">
-            <h1>Destaques</h1>
-            <div class="carousel-container">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div id="item">
-                                <iframe class="d-block w-o" src="https://www.youtube.com/embed/FyIwEFXOcaE" title="Gran Turismo 7 - PlayStation Showcase 2021 Trailer | PS5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen alt="First slide">
+  <header>
+    <div>
+      <a class="logo" href="/">
+        <img src="../assets/logo1500.png" />
+      </a>
+    </div>
+    <div class="links">
+      <a href="#destaque">Destaques</a>
+      <p>|</p>
+      <a href="#Lançamentos">Lançamentos</a>
+      <p>|</p>
+      <a href="#plataformas">Plataformas</a>
+      <p>|</p>
+      <a href="#Publishers">Notícias</a>
+      <p>|</p>
+      <a href="login.html">Entrar</a>
+      <p>|</p>
+      <a href="sign-up-page.html">Registrar</a>
+    </div>
+    <nav class="input">
+      <form id="searchbox" method="get" action="/search" autocomplete="off">
+          <input name="q" type="text" size="15" placeholder="Pesquisar amigos ..." />
+          <input id="button-submit" type="submit" value=" " />
+      </form>
+  </nav>
+  </header>
+  <main>
+    <section id="destaque" class="destaque">
+      <h1> Melhores jogos para jogar com seus amigos</h1>
+      <div class="carousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div id="item">
+                <iframe class="d-block w-o" src="https://www.youtube.com/embed/9pyYq9lpjls" title="YouTube video player"
+                  allowfullscreen alt="First slide">
                 </iframe>
-                                <div class="about">
-                                    <div class="about-texts">
-                                        <h1>Good of War
+                <div class="about">
+                  <div class="about-texts">
+                    <h1>Among Us 
 
-                                        </h1>
-                                        <p>
-                                            <b>Sobre:</b>God of War é uma série de jogos eletrônicos de ação-aventura criada por David Jaffe da Santa Monica Studio, da Sony. Iniciada em 2005 no console PlayStation 2, tornou-se carro-chefe 4 para a marca
-                                            PlayStation, consistindo em oito jogos em várias plataformas, com um nono atualmente em desenvolvimento
-                                            <p>
-                                                <b>Publishers:</b> Sony Interactive Entertainment
-                                            </p>
-                                            <p>
-                                                <b>Lançamento:</b> 20 de abril de 2018
-                                            </p>
-                                            <p>
-                                                <b>Plataformas:</b> PlayStation 4, Microsoft Windows
-                                            </p>
-                                            <p>
-                                                <b>Avaliação:</b> 9.0/10 <b>Genêro:</b> Luta
-                                            </p>
-                                    </div>
-                                    <button><a target="_blank" href="https://www.playstation.com/pt-br/god-of-war/">Ir para a página do
+                    </h1>
+                    <p>
+                      <b>Sobre:</b>O jogo se passa em um cenário de tema espacial, onde cada jogador desempenha um de dois papéis, 
+                      sendo a maioria tripulantes e um número predeterminado sendo impostores.
+                    <p>
+                      <b>Publishers:</b> InnerSloth
+              
+                    <p>
+                      <b>Lançamento:</b> Android, iOS
+                      15 de junho de 2018
+                      Windows,
+                      16 de novembro de 2018,
+                      Nintendo Switch
+                      15 de dezembro de 2020,
+                      PS4, PS5, Xbox One & Xbox Series X/S
+                      14 de dezembro de 202
+                    </p>
+                    <p>
+                      <b>Plataformas:</b>  Android, iOS,Windows,Nintendo Switch, PS4, PS5, Xbox One & Xbox Series X/S
+                    </p>
+                    <p>
+                      <b>Avaliação:</b> 9.0/10 <b>Genêro:</b> Jogo em grupo/ Sobrevivência
+                    </p>
+                  </div>
+                  <button><a target="_blank" href="https://buy.among.us/">Ir para a página do
                       jogo</a></button>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+              </div>
+            </div>
 
-                        <div class="carousel-item">
-                            <div id="item">
-                                <iframe class="d-block w-o" src="https://www.youtube.com/embed/IBv80CUQ1ew" title="UNCHARTED: Coleção Legado dos Ladrões" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <div class="about">
-                                    <div class="about-texts">
-                                        <h1>Fortnite</h1>
-                                        <p>
-                                            <b>Sobre:</b>:Fortnite é um jogo eletrônico multijogador online revelado originalmente em 2011, desenvolvido pela Epic Games e lançado como diferentes modos de jogo que compartilham a mesma jogabilidade e motor
-                                            gráfico de jogo.
-                                            <p>
-                                                <b>Publishers:</b> Sony
-                                            </p>
-                                            <p>
-                                                <b>Lançamento:</b> 21 de julho de 2017
-                                            </p>
-                                            <p>
-                                                <b>Plataformas:</b> Xbox Cloud Gaming, Nintendo Switch, GeForce Now.
-                                            </p>
-                                            <p>
-                                                <b>Avaliação:</b> 8.0/10 <b>Genêro:</b> Battle royale, Jogo on-line, Sandbox
-                                            </p>
+            <div class="carousel-item">
+              <div id="item">
+                <iframe class="d-block w-o" src="https://www.youtube.com/embed/IBv80CUQ1ew"
+                  title="UNCHARTED: Coleção Legado dos Ladrões" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="about">
+                  <div class="about-texts">
+                    <h1>Fortnite</h1>
+                    <p>
+                      <b>Sobre:</b>:Fortnite é um jogo eletrônico multijogador online revelado originalmente em 2011, desenvolvido pela Epic Games e 
+                      lançado como diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.
+                    <p>
+                      <b>Publishers:</b> Sony
+                    </p>
+                    <p>
+                      <b>Lançamento:</b>  21 de julho de 2017
+                    </p>
+                    <p>
+                      <b>Plataformas:</b> Xbox Cloud Gaming, Nintendo Switch, GeForce Now.
+                    </p>
+                    <p>
+                      <b>Avaliação:</b> 8.0/10 <b>Genêro:</b> Battle royale, Jogo on-line, Sandbox
+                    </p>
 
-                                    </div>
-                                    <button><a target="_blank" href="https://www.epicgames.com/fortnite/pt-BR/home">Ir para a página do
+                  </div>
+                  <button><a target="_blank" href="https://www.epicgames.com/fortnite/pt-BR/home">Ir para a página do
                       jogo</a>
                   </button>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-                    <div class="carousel-item">
-                        <div id="item">
-                            <iframe class="d-block w-o" src="https://www.youtube.com/embed/HqQMh_tij0c" title="God of War – Announce Trailer | PC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <div class="about">
-                                <div class="about-texts">
-                                    <h1>Fifa 23 </h1>
-                                    <p> <b>Sobre:</b> FIFA 23 será o próximo jogo eletrônico de simulação de futebol em desenvolvimento pela Electronic Arts. O jogo é o último a utilizar a marca FIFA no nome e será lançado dia 30 de setembro de 2022, para
-                                        Xbox Series S/X, Xbox One, PlayStation 5, PlayStation 4 e Microsoft Windows
-                                        <p>
-                                            <b>Publishers:</b> Electronic Arts, EA Sports
-                                            <p> <b>Lançamento:</b>26 de setembro de 2022</p>
-                                            <p>
-                                                <b>Plataformas:</b>box Series X e Series S, PlayStation 4, Xbox One, Nintendo Switch, PlayStation 5, Microsoft Windows
-                                            </p>
-                                            <p>
-
-                                                <b>Avaliação:</b> 9.0/10 <b>Genêro:</b> Jogo eletrônico de esporte
-                                            </p>
-                                </div>
-                                <button><a target="_blank" href="https://www.playstation.com/pt-br/god-of-war/">Ir para a página do
-                    jogo</a>
-                </button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+              </div>
             </div>
-            </div>
-        </section>
+            <div class="carousel-item">
+              <div id="item">
+                <iframe class="d-block w-o" src="https://www.youtube.com/embed/4nAgHBIHESM"
+             
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <div class="about">
+                  <div class="about-texts">
+                    <h1>Fall Guys</h1>
+                    <p>
+                      <b>Sobre:</b>:Em Fall Guys, até sessenta jogadores controlam criaturas semelhantes a jujubas
+                       e competem entre si em uma série de desafios, como em pistas de obstáculos. Muitos percursos 
+                       diferentes foram adicionados desde o lançamento do jogo;ogo.
+                    <p>
+                      <b>Publishers:</b> Epic Games
+                    </p>
+                    <p>
+                      <b>Lançamento:</b> 4 de agosto de 2020
+                    </p>
+                    <p>
+                      <b>Plataformas:</b> 	Microsoft Windows
+                      PlayStation 4
+                      Nintendo Switch
+                      PlayStation 5
+                      Xbox One
+                      Xbox Series X/S
+                    </p>
+                    <p>
+                      <b>Avaliação:</b> 8.0/10 <b>Genêro:</b> Battle royale, 
+                      <p></p>
 
-        <section id="Lançamentos" class="Lançamentos">
-            <div class="input">
-                <h1><b>Lançamentos</b></h1>
-                <div class="forma">
-                    <select name="my_html_select_box">
+                  </div>
+                  <button><a target="_blank" href="https://www.epicgames.com/fortnite/pt-BR/home">Ir para a página do
+                      jogo</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+
+
+
+
+
+    </section>
+
+    <section id="Lançamentos" class="Lançamentos">
+      <div class="input">
+        <h1><b>Lançamentos</b></h1>
+        <div class="forma">
+          <select name="my_html_select_box">
 
             <option selected="yes">Ordem:Aleatoria </option>
             <option>Popularidade</option>
             <option>Data</option>
 
           </select>
-                </div>
-                <div class="form">
-                    <select name="my_html_select_box">
+        </div>
+        <div class="form">
+          <select name="my_html_select_box">
             <option type="radio" id="Todos" name="opçoes" for="Todos">Genêro:Todos </option>
             <option type="radio" id="Aventura" name="opçoes" for="Aventura">Guera </option>
             <option type="radio" id="Corrida" name="opçoes" for="Corrida">Aventura </option>
@@ -172,261 +195,272 @@
             <option type="radio" id="RPG" name="opçoes" for="RPG">RPG </option>
             <option type="radio" id="Tiro" name="opçoes" for="Tiro">Tiro </option>
           </select>
-                </div>
+        </div>
 
-            </div>
-            <div class="cards">
-                <div class="card">
+      </div>
+      <div class="cards">
+        <div class="card">
 
 
-                    <a><b>
+          <a><b>
               <h6>Fifa 23 </h6> 
             </b> </a>
-                    <iframe class="d-block w-o" src="https://www.youtube.com/embed/o3V-GvvzjE4" title="Fifa 23 - Trailer de Anúncio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <button><a target="_blank" href="">Mais Detalhes</a>
+          <iframe class="d-block w-o" src="https://www.youtube.com/embed/o3V-GvvzjE4"
+            title="Fifa 23 - Trailer de Anúncio" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <button><a target="_blank" href="">Mais Detalhes</a>
           </button>
 
-                </div>
-                <div class="card">
+        </div>
+        <div class="card">
 
-                    <a><b>
+          <a><b>
               <h6>League of Legends </h6> 
             </b></a>
-                    <iframe class="d-block w-o" src="https://www.youtube.com/embed/vzHrjOMfHPY" title="League of Legends" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <button><a target="_blank"
+          <iframe class="d-block w-o" src="https://www.youtube.com/embed/vzHrjOMfHPY" title="League of Legends"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <button><a target="_blank"
               href="https://adrenaline.com.br/noticias/v/77812/rpg-de-acao-mistrogue-e-confirmado-para-pc-e-chega-na-metade-de-2023">Mais
               Detalhes</a>
           </button>
 
-                </div>
+        </div>
 
-                <div class="card">
+        <div class="card">
 
-                    <a><b>
+          <a><b>
               <h6>EA SPORTS UFC 4 </h6> 
             </b> </a>
-                    <iframe class="d-block w-o" src="https://www.youtube.com/embed/GjugTk9ovcI" title="EA SPORTS UFC 4 | Official Gameplay Trailer | 2K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <button><a target="_blank" href="https://www.ea.com/games/ea-sports-pga-tour?isLocalized=true">Mais
+          <iframe class="d-block w-o" src="https://www.youtube.com/embed/GjugTk9ovcI"
+            title="EA SPORTS UFC 4 | Official Gameplay Trailer | 2K" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <button><a target="_blank" href="https://www.ea.com/games/ea-sports-pga-tour?isLocalized=true">Mais
               Detalhes</a>
           </button>
 
-                </div>
+        </div>
 
-                <div class="card">
+        <div class="card">
 
-                    <a><b>
+          <a><b>
               <h6>Call of Duty: Modern Warfare II</h6> 
             </b></a>
-                    <iframe class="d-block w-o" src="https://www.youtube.com/embed/r72GP1PIZa0" title="Forza Motorsport - Official Trailer - Xbox & Bethesda Games Showcase 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <button><a target="_blank" href="https://www.callofduty.com/br/pt">Mais Detalhes</a>
+          <iframe class="d-block w-o" src="https://www.youtube.com/embed/r72GP1PIZa0"
+            title="Forza Motorsport - Official Trailer - Xbox & Bethesda Games Showcase 2022" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <button><a target="_blank" href="https://www.callofduty.com/br/pt">Mais Detalhes</a>
           </button>
 
-                </div>
+        </div>
 
-                <div class="card">
+        <div class="card">
 
-                    <a> <b>
+          <a> <b>
               <h6>Spider-Man 2</h6> 
             </b></a>
-                    <iframe class="d-block w-o" src="https://www.youtube.com/embed/qIQ3xNqkVC4" title="Marvel's Spider-Man 2 - PlayStation Showcase 2021: Reveal Trailer | PS5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <button><a target="_blank"
+          <iframe class="d-block w-o" src="https://www.youtube.com/embed/qIQ3xNqkVC4"
+            title="Marvel's Spider-Man 2 - PlayStation Showcase 2021: Reveal Trailer | PS5" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <button><a target="_blank"
               href="https://www.theenemy.com.br/playstation/marvels-spider-man-2-gameplay-rumor">Mais Detalhes</a>
           </button>
 
-                </div>
+        </div>
 
 
-                <div class="card">
+        <div class="card">
 
-                    <a><b>
+          <a><b>
               <h6>Grand Theft Auto V</h6> 
             </b> </a>
-                    <iframe class="d-block w-o" src="https://www.youtube.com/embed/DMXWKpZH7pw" title="Grand Theft Auto V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <button><a target="_blank" href="https://www.rockstargames.com/br/gta-v">Mais Detalhes</a>
+          <iframe class="d-block w-o" src="https://www.youtube.com/embed/DMXWKpZH7pw"
+            title="Grand Theft Auto V" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <button><a target="_blank" href="https://www.rockstargames.com/br/gta-v">Mais Detalhes</a>
           </button>
 
-                </div>
-            </div>
+        </div>
+      </div>
+      
 
-        </section>
+    </section>
 
-        <section id="plataformas" class="plataformas">
-            <h1> Plataformas</h1>
-            <div class=cardss>
-                <div class="card">
+    <section id="plataformas" class="plataformas">
+      <h1> Plataformas</h1>
+      <div class=cardss>
+        <div class="card">
 
-                    <h6><b>Playstation</b></h6>
+          <h6><b>Playstation</b></h6>
 
-                    <img src="https://cdn.1min30.com/wp-content/uploads/2017/06/Symbole-Playstation.jpg">
-                    <ul>
-                        <li><b>Conheça os 3 melhores jogos de PlayStation</b></li>
-                        <li> The Last of Us (Partes 1 e 2)</li>
-                        <li>The Witcher 3: Wild Hunt</li>
-                        <li>Red Dead Redemption 2</li>
+          <img src="https://cdn.1min30.com/wp-content/uploads/2017/06/Symbole-Playstation.jpg">
+          <ul>
+            <li><b>Conheça os 3 melhores jogos de PlayStation</b></li>
+            <li> The Last of Us (Partes 1 e 2)</li>
+            <li>The Witcher 3: Wild Hunt</li>
+            <li>Red Dead Redemption 2</li>
 
-                    </ul>
-                    <button><a target="_blank" href="https://www.playstation.com/pt-br/playstation-network/">Mais Detalhes</a>
+          </ul>
+          <button><a target="_blank" href="https://www.playstation.com/pt-br/playstation-network/">Mais Detalhes</a>
           </button>
-                </div>
-                <div class="card">
+        </div>
+        <div class="card">
 
-                    <h6><b>Xbox</b></h6>
+          <h6><b>Xbox</b></h6>
 
-                    <img src="https://assets1.ignimgs.com/2018/07/06/xbox---generic-bug-1530916990792.jpg">
-                    <ul class="xbox">
-                        <li><b>Conheça os 3 melhores jogos de Xbox</b></li>
-                        <li>Forza Horizon 5 281K subscribers</li>
-                        <li>Halo Infinite 751K subscribers </li>
-                        <li>Flight Simulator 282K subscribers</li>
+          <img src="https://assets1.ignimgs.com/2018/07/06/xbox---generic-bug-1530916990792.jpg">
+          <ul class="xbox">
+            <li><b>Conheça os 3 melhores jogos de Xbox</b></li>
+            <li>Forza Horizon 5 281K subscribers</li>
+            <li>Halo Infinite 751K subscribers </li>
+            <li>Flight Simulator 282K subscribers</li>
 
-                    </ul>
-                    <button><a target="_blank" href="https://www.xbox.com/pt-BR">Mais Detalhes</a>
+          </ul>
+          <button><a target="_blank" href="https://www.xbox.com/pt-BR">Mais Detalhes</a>
           </button>
-                </div>
-                <div class="card">
+        </div>
+        <div class="card">
 
-                    <h6><b>Nitendo</b></h6>
+          <h6><b>Nintendo</b></h6>
 
-                    <img src="nitendo.png">
-                    <ul class="nitendo">
-                        <li><b>Principais jogos</b></li>
-                        <li>The Legend of Zelda: A Link to the Past</li>
-                        <li>Super Mario World</li>
-                        <li>Super Metroid</li>
+          <img src="../assets/nitendo.png">
+          <ul class="nintendo">
+            <li><b>Principais jogos</b></li>
+            <li>The Legend of Zelda: A Link to the Past</li>
+            <li>Super Mario World</li>
+            <li>Super Metroid</li>
 
-                    </ul>
+          </ul>
 
-                    <button><a target="_blank" href="https://www.nintendo.com/pt-br/">Mais Detalhes</a>
+          <button><a target="_blank" href="https://www.nintendo.com/pt-br/">Mais Detalhes</a>
           </button>
-                </div>
+        </div>
 
 
 
 
-            </div>
-            <div class="botão"> <button><a target="_blank" href="http://127.0.0.1:5500/index.html#destaque">Carregar mais
+      </div>
+      <div class="botão"> <button><a target="_blank" href="http://127.0.0.1:5500/index.html#destaque">Carregar mais
             plataformas</a></button></div>
 
-        </section>
-        <section id="Publishers" class="Publishers">
-            <h1>Notícias</h1>
-            <div class="cardss">
-                <div class="card">
+    </section>
+    <section id="Publishers" class="Publishers">
+      <h1>Notícias</h1>
+      <div class="cardss">
+        <div class="card">
 
 
-                    <h6><b>SONY</b></h6>
+          <h6><b>SONY</b></h6>
 
-                    <img src="gg.jpg">
-                    <ul class="publi">
-                        <li><b>God of War Ragnarok</b></li>
-                        <p1>Sony divulga jogos que chegam ao 3
-                            <p1>
-                                <p1>PlayStation ainda em 2022; God of
-                                    <p1>
-                                        <p1>War tem estreia 9 de novembro
-                                            <p1>
+          <img src="../assets/gg.jpg">
+          <ul class="publi">
+            <li><b>God of War Ragnarok</b></li>
+            <p1>Sony divulga jogos que chegam ao 3<p1>
+            <p1>PlayStation ainda em 2022; God of<p1>
+            <p1>War tem estreia 9 de novembro<p1>
 
-                    </ul>
+          </ul>
 
-                    <button><a target="_blank" href="https://www.ea.com/pt-br">Mais Detalhes</a>
+          <button><a target="_blank" href="https://www.ea.com/pt-br">Mais Detalhes</a>
           </button>
 
-                </div>
+        </div>
 
 
-                <div class="card">
+        <div class="card">
 
 
 
-                    <h6><b>EA Sports</b></h6>
+          <h6><b>EA Sports</b></h6>
 
-                    <img src="brasil.jpg">
-                    <ul class="publi">
-                        <li><b> Brasil leva mundial de Fifa</b></li>
-                        <p1>Vitória brasileira</p1>
-                        <p1>por 2 a 1 em cima</p1>
-                        <p1>da Pôlonia faturando o título.
-                            <p1>
+          <img src="../assets/brasil.jpg">
+          <ul class="publi">
+            <li><b> Brasil leva mundial de Fifa</b></li>
+            <p1>Vitória brasileira</p1>
+            <p1>por 2 a 1 em cima</p1>
+            <p1>da Pôlonia faturando o título.<p1>
 
-                    </ul>
+          </ul>
 
-                    <button><a target="_blank" href="https://esportudo.com/">Mais Detalhes</a>
+          <button><a target="_blank" href="https://esportudo.com/">Mais Detalhes</a>
           </button>
 
 
-                </div>
-                <div class="card">
+        </div>
+        <div class="card">
 
 
 
-                    <h6><b>Riot Games</b></h6>
+          <h6><b>Riot Games</b></h6>
 
-                    <img src="lol.jpg">
-                    <ul class="publi">
-                        <li><b>League of Legends</b></li>
-                        <p1>Lil Nas X lança
-                            <p1>
-                                <p1>single do tema do
-                                    <p1>
-                                        <p1>Mundial da plataforma 2022
-                                            <p1>
+          <img src="../assets/lol.jpg">
+          <ul class="publi">
+            <li><b>League of Legends</b></li>
+            <p1>Lil Nas X lança<p1>
+            <p1>single do tema do<p1>
+            <p1>Mundial da plataforma 2022<p1>
 
-                    </ul>
+          </ul>
 
-                    <button><a target="_blank" href="https://www.leagueoflegends.com/">Mais Detalhes</a>
+          <button><a target="_blank" href="https://www.leagueoflegends.com/">Mais Detalhes</a>
           </button>
 
 
-                </div>
-            </div>
-            <div class="botão"> <button><a target="_blank" href="http://127.0.0.1:5500/index.html#destaque">Carregar mais
+        </div>
+      </div>
+      <div class="botão"> <button><a target="_blank" href="http://127.0.0.1:5500/index.html#destaque">Carregar mais
             Publishers</a></button></div>
 
-        </section>
+    </section>
 
 
-        <footer id="myFooter">
+    <footer id="myFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="inicio">
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-6  info">
+            <h5>Sobre</h5>
+            <p> WePlay é uma plataforma digital para encontro de jogadores com gostos, horários e personalidades similares. O intuito do projeto é criar um espaço propício para formação de grupos de amigos que jogam juntos!
+            </p>
+          </div>
+
+
+          <div class="second-bar">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="inicio">
-                            </ul>
-                        </div>
-                    </div>
+              <div class="col-sm-10 col-md-9 col-lg-10">
 
-                    <div class="col-sm-6  info">
-                        <h5>Sobre</h5>
-                        <p> WePlay é uma plataforma digital para encontro de jogadores com gostos, horários e personalidades similares. O intuito do projeto é criar um espaço propício para formação de grupos de amigos que jogam juntos!
-                        </p>
-                    </div>
-
-
-                    <div class="second-bar">
-                        <div class="container">
-                            <div class="col-sm-10 col-md-9 col-lg-10">
-
-                                <div class="social-icons">
-                                    <p>@Copyright 2020 - Disciplina de Trabalho Interdisciplinar <b>- PUC MINAS </b></p>
-                                    <a href="http://127.0.0.1:5500/index.html#destaque" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="http://127.0.0.1:5500/index.html#destaque" class="facebook"><i
+                <div class="social-icons">
+                  <p>@Copyright 2020 - Disciplina de Trabalho Interdisciplinar <b>- PUC MINAS </b></p>
+                  <a href="http://127.0.0.1:5500/index.html#destaque" class="twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="http://127.0.0.1:5500/index.html#destaque" class="facebook"><i
                       class="fa fa-facebook"></i></a>
-                                    <a href="http://127.0.0.1:5500/index.html#destaque" class="instagram"><i
+                  <a href="http://127.0.0.1:5500/index.html#destaque" class="instagram"><i
                       class="fa fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-        </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
 
 
 
 
-    </main>
+  </main>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
