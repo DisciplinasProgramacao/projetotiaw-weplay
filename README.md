@@ -18,4 +18,4 @@ WePlay é uma plataforma digital para encontro de jogadores com gostos, horário
 Kanban https://www.meistertask.com/app/project/mE0ow495/weplay
 
 ## Instruções para uso
-Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
+Iniciar na página index.html do código principal.
