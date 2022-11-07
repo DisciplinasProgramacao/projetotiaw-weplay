@@ -111,11 +111,13 @@ header .links {
     flex-direction: row;
 }
 
+header .links {}
+
 header .links a {
     text-decoration: none;
     margin: 0 5px;
-    background-color: rgb(65, 65, 65);
     color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 header .input {
