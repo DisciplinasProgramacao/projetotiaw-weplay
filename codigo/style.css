@@ -6,14 +6,6 @@
     --black: #656a84;
 }
 
-<HEAD:codigo/style.css:root> {
-    --title-color: #000000;
-    --primary-color: #34cb79;
-    --secondary-color: #190fe6;
-    --white: #ffd500;
-    --black: #000000;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -118,8 +110,6 @@ header .links {
     display: flex;
     flex-direction: row;
 }
-
-header .links {}
 
 header .links a {
     text-decoration: none;
@@ -823,14 +813,6 @@ input:focus::-moz-placeholder {
         flex: 0 0 auto;
         -webkit-flex: 0 0 auto;
     }
-}
-
-=======:root {
-    --title-color: #6982f2;
-    --primary-color: #34cb79;
-    --secondary-color: #190fe6;
-    --white: #ffffff;
-    --black: #ea79b9;
 }
 
 body {
