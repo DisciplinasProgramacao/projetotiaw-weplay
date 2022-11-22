@@ -28,21 +28,22 @@
             <!-- formulário de cadastro-->
             <form>
 
-                <label for="email"><b>E-mail</b></label>
+                <label id="labelEmail" for="email"><b>E-mail</b></label>
                 <br>
-                <input type="text" placeholder="Digite seu e-mail" name="email" required>
+                <input type="text" placeholder="Digite seu e-mail" id="email" required>
                 <br>
-                <label for="psw"><b>Senha</b></label>
+                <label id="labelsenha" for="psw"><b>Senha</b></label>
                 <br>
-                <input type="password" placeholder="Digite sua senha" name="psw" required>
+                <input  type="password" placeholder="Digite sua senha" id="psw" required>
                 <br>
-                <label for="psw-repeat"><b>Confirmar senha</b></label>
+                <label id="labelrepeat" for="psw-repeat"><b>Confirmar senha</b></label>
                 <br>
-                <input type="password" placeholder="Confirmar senha" name="psw-repeat" required>
+                <input type="password" placeholder="Confirmar senha" id="psw-repeat" required>
             </form>
-            <a href="cadastro2.html"><input type="submit" class="fadeIn fifth" value="Cadastrar"></a>
+            <a id="btmCadastro" href="cadastro2.html"><input  onclick="cadastrar()" type="submit" class="fadeIn fifth" value="Cadastrar"></a>
         </div>
     </div>
+    <script src="sign-up.js"></script>
 
 </body>
 
