@@ -33,7 +33,7 @@ psw.addEventListener("keyup", ()=>{
     }
     else{
         labelsenha.setAttribute('style', 'color: green')
-        labelsenha.innerHTML = 'Email'
+        labelsenha.innerHTML = 'senha'
         validSenha=true
     }
 })
