@@ -1,5 +1,3 @@
-let btmCadastro = document.querySelector("#btmCadastro")
-
 let labelEmail = document.querySelector('#labelEmail');
 let email = document.querySelector("#email");
 let validEmail = false;
@@ -13,27 +11,27 @@ let pswrepeat = document.querySelector("#psw-repeat");
 let validRepeat = false;
 
 email.addEventListener("keyup", ()=>{
-    if( email.value.lenght  <= 2){
+    if( email  <= 2){
         labelEmail.setAttribute ("Style, color red");
         labelEmail.innerHTML = '<strong> Insira no minino 3 caracteres</strong>'
         validEmail=false
     }
     else{
         labelEmail.setAttribute('style', 'color: green')
-        labelEmail.innerHTML = 'Email'
+        labelEmail.innerHTML = '<strong> Email </strong>'
         validEmail=true
     }
 })
 
 psw.addEventListener("keyup", ()=>{
-    if( email.value.lenght  <= 4){
+    if( psw <= 4){
         labelsenha.setAttribute ("Style, color red");
         labelsenha.innerHTML = '<strong> Insira no minino 5 caracteres</strong>'
         validSenha=false
     }
     else{
         labelsenha.setAttribute('style', 'color: green')
-        labelsenha.innerHTML = 'senha'
+        labelsenha.innerHTML = ' <strong> Senha </strong>'
         validSenha=true
     }
 })
@@ -54,9 +52,20 @@ pswrepeat.addEventListener('keyup', ()=>{
 })
 
 function cadastrar(){
-    if (validEmail && validRepeat && validSenha ==true){
-
+    if (validEmail   &&   validRepeat  && validSenha  ){
+        let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
+        
+        listaUser.push(
+            {
+                emailCad: email.value,
+                senhaCad: psw.value,
+            }
+        )
+        localStorage.setItem('listaUser', JSON.stringify(listaUser))
+            window.location.href = 'cadastro2.html'
     }
+    
+
     else{
         alert("Preencha todos os campos")
        
