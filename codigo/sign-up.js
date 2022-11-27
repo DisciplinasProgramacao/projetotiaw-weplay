@@ -10,23 +10,26 @@ let labelrepeat = document.querySelector('#labelrepeat');
 let pswrepeat = document.querySelector("#psw-repeat");
 let validRepeat = false;
 
+const form = document.getElementById('form');
+const emailRegex = /^[\w+.]+@\w+\.\w{2,}(?:\.\w{2})?$/;
+
 email.addEventListener("keyup", ()=>{
-    if( email  <= 2){
-        labelEmail.setAttribute ("Style, color red");
-        labelEmail.innerHTML = '<strong> Insira no minino 3 caracteres</strong>'
-        validEmail=false
-    }
-    else{
+    if(emailRegex.test(email.value)){
         labelEmail.setAttribute('style', 'color: green')
         labelEmail.innerHTML = '<strong> Email </strong>'
         validEmail=true
     }
+    else{
+        labelEmail.setAttribute ('style', 'color:red');
+        labelEmail.innerHTML = '<strong>Inserir um e-mail válido</strong>'
+        validEmail=false
+    }
 })
 
-psw.addEventListener("keyup", ()=>{
-    if( psw <= 4){
-        labelsenha.setAttribute ("Style, color red");
-        labelsenha.innerHTML = '<strong> Insira no minino 5 caracteres</strong>'
+psw.addEventListener('keyup', ()=>{
+    if( psw.value.length < 4){
+        labelsenha.setAttribute ('style', 'color:red');
+        labelsenha.innerHTML = 'Insira no minino 5 caracteres'
         validSenha=false
     }
     else{
