@@ -1,31 +1,30 @@
-
-
-
-
 function entrar(){
-    let login = document.querySelector('#login')
-    let labelLogin = document.querySelector('#labelLogin')
+    let login = document.getElementById('login').value;
+    let senha = document.getElementById('senha').value;
 
-    let password = document.querySelector('#password')
-    let senhaLabel = document.querySelector('#senhaLabel')
     let listaUser = []
     let userValid = {
-        email: '',
-        password: ''
-    }
-    listaUser = JSON.parse(localStorage.getItem(' listaUser'))
+        login: '',
+        senha: ''
+      }
+    listaUser = JSON.parse(localStorage.getItem('listaUser'))
 
-    listaUser.foreach((item)=>{
-        if(login.value == item.emailCad & password.value == item.senhaCad){
-            userValid = {
-                email: item.emailCad,
-                senha: item.senhaCad
-            }
+        
+    listaUser.forEach((item) => {
+        if(usuario.value == item.userCad && senha.value == item.senhaCad){
+       
+        userValid = {
+            login: item.emailCad,
+            senha: item.senhaCad
         }
-    })
-    if(login.value == userValid.email && password.value== userValid.password){
-        alert('certo')}
+      
+    }
+  })
+
+    if(login.value== item.emailCad && senha.value==item.senhaCad){
+        window.location.href = 'index.html'
+    }
     else{
-        alert('erro')}
-    
+        alert('Senha ou Usuário incorretos')
+    }
 }
