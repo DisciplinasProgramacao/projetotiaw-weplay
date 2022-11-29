@@ -26,12 +26,16 @@
 
             <!-- formulario login-->
             <form>
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="Login">
-                <input type="password" id="password" class="fadeIn third" name="login" placeholder="Senha">
+                <label id="labelLogin" for="login"><strong>Login</strong></label>
                 <br>
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="Digite seu email">
+                <br>
+                <label id="senhaLabel" for="password"><strong>Senha</strong></label>
+                <br>
+                <input type="password" id="password" class="fadeIn third" name="password" placeholder="Digite sua senha">
                 <br>
             </form>
-            <a href="index.html"><input type="submit" class="fadeIn fourth" value="Entrar"></a>
+            <input onclick="entrar()" type="submit" class="fadeIn fourth" value="Entrar"></a>
             <a href="sign-up-page.html">  <input type="submit" class="fadeIn fifth" value="Cadastrar"></a>
 
 
