@@ -1,9 +1,9 @@
 :root {
-    --title-color: #000000;
+    --title-color: #f6ee0f;
     --primary-color: #34cb79;
-    --secondary-color: #655fe2;
-    --white: #fffb05;
-    --black: #0a0c13;
+    --secondary-color: #190fe6;
+    --white: #fcf9f9;
+    --black: #4ca4fc;
 }
 
 * {
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: #060607;
+    background-color: #d6d6ff;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -91,7 +91,7 @@ header {
     justify-content: space-between;
     padding: 10px;
     height: 60px;
-    background-color: #c0f333;
+    background-color: #69dc3b;
 }
 
 header .logo {
@@ -102,7 +102,7 @@ header .logo {
 
 header .logo img {
     margin-top: 0%;
-    width: 70px;
+    width: 90px;
     height: 60px;
 }
 
@@ -156,7 +156,7 @@ input:focus::-moz-placeholder {
     border: 0px;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     font-size: 14px;
-    color: #c04040 !important;
+    color: #f2f2f2 !important;
     padding: 10px 35px 10px 20px;
     width: 220px;
 }
@@ -195,7 +195,7 @@ input:focus::-moz-placeholder {
 .destaque h1 {
     text-align: center;
     color: var(--white);
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .carousel-container {
@@ -351,7 +351,7 @@ input:focus::-moz-placeholder {
 }
 
 .plataformas .cardss {
-    background-color: #ededed k;
+    background-color: #6c7086 k;
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(3, 1fr);
@@ -510,18 +510,16 @@ input:focus::-moz-placeholder {
 /*FOOTER*/
 
 .site-footer {
-   
-   margin-top: 1000px;
-    background-color: #26272b;
-
+    background-color: #253fa7;
+    margin-top:1000px;
     padding: 45px 0 20px;
     font-size: 15px;
     line-height: 24px;
-    color: #737373;
+    color: #c0ef12;
 }
 
 .site-footer hr {
-    border-top-color: #bbb;
+    border-top-color: rgb(142, 238, 9);
     opacity: 0.5
 }
 
@@ -530,7 +528,7 @@ input:focus::-moz-placeholder {
 }
 
 .site-footer h6 {
-    color: #fff;
+    color: rgb(136, 245, 77);
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5px;
@@ -538,7 +536,7 @@ input:focus::-moz-placeholder {
 }
 
 .site-footer a {
-    color: #737373;
+    color: #f4eeee;
 }
 
 .site-footer a:hover {
@@ -556,7 +554,7 @@ input:focus::-moz-placeholder {
 }
 
 .footer-links a {
-    color: #737373
+    color: #f7f5f5
 }
 
 .footer-links a:active,
@@ -821,7 +819,8 @@ input:focus::-moz-placeholder {
 body {
     font-family: "Poppins", sans-serif;
     height: 100vh;
-  
+   
+    background-size: contain;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
