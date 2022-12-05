@@ -11,7 +11,7 @@ function entrar(){
 
         
     listaUser.forEach((item) => {
-        if(usuario.value == item.userCad && senha.value == item.senhaCad){
+        if(login.value == item.userCad && senha.value == item.senhaCad){
        
         userValid = {
             login: item.emailCad,
@@ -21,7 +21,7 @@ function entrar(){
     }
   })
 
-    if(login.value== item.emailCad && senha.value==item.senhaCad){
+    if(login.value == userValid.login && senha.value == userValid.senha){
         window.location.href = 'index.html'
     }
     else{
