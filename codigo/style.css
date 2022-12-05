@@ -1,9 +1,9 @@
 :root {
     --title-color: #000000;
     --primary-color: #34cb79;
-    --secondary-color: #190fe6;
-    --white: #ffffff;
-    --black: #656a84;
+    --secondary-color: #655fe2;
+    --white: #fffb05;
+    --black: #0a0c13;
 }
 
 * {
@@ -91,7 +91,7 @@ header {
     justify-content: space-between;
     padding: 10px;
     height: 60px;
-    background-color: #656a84;
+    background-color: #c0f333;
 }
 
 header .logo {
@@ -102,7 +102,7 @@ header .logo {
 
 header .logo img {
     margin-top: 0%;
-    width: 90px;
+    width: 70px;
     height: 60px;
 }
 
@@ -156,7 +156,7 @@ input:focus::-moz-placeholder {
     border: 0px;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     font-size: 14px;
-    color: #f2f2f2 !important;
+    color: #c04040 !important;
     padding: 10px 35px 10px 20px;
     width: 220px;
 }
@@ -195,7 +195,7 @@ input:focus::-moz-placeholder {
 .destaque h1 {
     text-align: center;
     color: var(--white);
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .carousel-container {
@@ -351,7 +351,7 @@ input:focus::-moz-placeholder {
 }
 
 .plataformas .cardss {
-    background-color: #6c7086 k;
+    background-color: #ededed k;
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(3, 1fr);
@@ -510,7 +510,10 @@ input:focus::-moz-placeholder {
 /*FOOTER*/
 
 .site-footer {
+   
+   margin-top: 1000px;
     background-color: #26272b;
+
     padding: 45px 0 20px;
     font-size: 15px;
     line-height: 24px;
@@ -818,8 +821,7 @@ input:focus::-moz-placeholder {
 body {
     font-family: "Poppins", sans-serif;
     height: 100vh;
-    background-image: url("../assets/mariobg.jpg");
-    background-size: contain;
+  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
