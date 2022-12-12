@@ -21,6 +21,9 @@ body {
     background-image: url(mariobg.jpg);
     -webkit-font-smoothing: antialiased;
 }
+.conteudosecundario{
+    background-image: linear-gradient(to bottom,#4ca4fc,white);
+}
 
 a {
     text-decoration: none;
@@ -390,7 +393,7 @@ input:focus::-moz-placeholder {
 .plataformas .card {
     width: 300px;
     height: 250px;
-    background-color: #6c7086;
+    background-color: #ffffff;
     border-radius: 8px;
     margin: auto;
     border-color: rgb(246, 246, 246);
@@ -400,7 +403,7 @@ input:focus::-moz-placeholder {
     position: absolute;
     right: 0px;
     width: 200px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(255, 252, 251);
     color: rgb(255, 255, 255);
     ;
     margin-top: 5%;
@@ -411,7 +414,7 @@ input:focus::-moz-placeholder {
 }
 
 .plataformas .cardss .card button {
-    background-color: #6c7086;
+    background-color: #ffffff;
     border-radius: 8px;
     margin-right: 2px;
 }
