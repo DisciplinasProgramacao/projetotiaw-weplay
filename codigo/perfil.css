@@ -7,7 +7,8 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    background-color: #f1f1f1
+    background-image: linear-gradient(to right,rgb(56, 205, 255), white, rgb(56, 205, 255));
+    
     
 }
         
@@ -51,12 +52,14 @@ img:hover {
 }
 
 .about {
-    background-color: #fff;
+    background-color: #77bbff;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px grey;
 }
 
 .about > h1 {				
