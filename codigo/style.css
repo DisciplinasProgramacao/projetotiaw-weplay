@@ -510,16 +510,15 @@ input:focus::-moz-placeholder {
 /*FOOTER*/
 
 .site-footer {
-    background-color: #303030;
-    margin-top:1000px;
+    background-color: #26272b;
     padding: 45px 0 20px;
     font-size: 15px;
     line-height: 24px;
-    color: #ffffff;
+    color: #737373;
 }
 
 .site-footer hr {
-    border-top-color: rgb(255, 255, 255);
+    border-top-color: #bbb;
     opacity: 0.5
 }
 
@@ -528,7 +527,7 @@ input:focus::-moz-placeholder {
 }
 
 .site-footer h6 {
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5px;
@@ -536,11 +535,11 @@ input:focus::-moz-placeholder {
 }
 
 .site-footer a {
-    color: #f4eeee;
+    color: #737373;
 }
 
 .site-footer a:hover {
-    color: #272727;
+    color: #3366cc;
     text-decoration: none;
 }
 
@@ -554,13 +553,13 @@ input:focus::-moz-placeholder {
 }
 
 .footer-links a {
-    color: #f7f5f5
+    color: #737373
 }
 
 .footer-links a:active,
 .footer-links a:focus,
 .footer-links a:hover {
-    color: #444444;
+    color: #3366cc;
     text-decoration: none;
 }
 
