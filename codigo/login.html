@@ -12,42 +12,36 @@
 </head>
 
 <body>
-
-    <div class="wrapper fadeInDown">
-        <div id="formContent">
-            <!-- titulos -->
-
-            <!-- nome -->
-            <div class="fadeIn first">
-                <br>
-                <h1>WePlay</h1>
-                <br>
-            </div>
-
-            <!-- formulario login-->
-            <form>
-                <label id="labelLogin" for="login"><strong>Login</strong></label>
-                <br>
-                <input id="login" type="text" class="fadeIn second" name="login" placeholder="Digite seu email">
-                <br>
-                <label id="senhaLabel" for="senha"><strong>Senha</strong></label>
-                <br>
-                <input id="senha" type="password"  class="fadeIn third" name="password" placeholder="Digite sua senha">
-                <br>
-            </form>
-            <input onclick="entrar()" type="submit" class="fadeIn fourth" value="Entrar"></a>
-            <a href="sign-up-page.html">  <input type="submit" class="fadeIn fifth" value="Cadastrar"></a>
-
-
-
-
-            <!-- Perdeu a senha -->
-            <div id="formFooter">
-                <a class="underlineHover" href="#">Esqueceu sua senha?</a>
-            </div>
-
-        </div>
-    </div>
+    
+<div class='container'>
+    <div class='card'>
+      <h1> Entrar </h1>
+      
+      <div id='msgError'></div>
+      
+      <div class='label-float'>
+        <input type='text' id='usuario' paceholder='' required>
+        <label id='userLabel' for='usuario'>Usuario</label>
+      </div>
+      
+      <div class='label-float'>
+        <input type='password' id='senha' paceholder='' required>
+        <label id='senhaLabel' for='senha'>Senha</label>
+        <i class="fa fa-eye" aria-hidden="true"></i>
+      </div>
+      
+      <div class='justify-center'>
+        <button onclick='entrar()'>Entrar</button>
+      </div>
+      
+      <div class='justify-center'>
+        <hr>
+      </div>
+      
+      <p> Não tem uma conta?
+        <a href= 'sign-up-page.html'> Cadastre-se </a>
+      </p>
+  
     <script src="login.js"></script>
 </body>
 
