@@ -2,6 +2,23 @@
 # WePlay
 WePlay é uma plataforma digital para encontro de jogadores com gostos, horários e personalidades similares. O intuito do projeto é criar um espaço propício para formação de grupos de amigos que jogam juntos!
 
+# Requisitos cumpridos: 45/100
+  - Login e cadastro ok
+  - Perfil sem informações de login
+  - Sem página específica
+  - Sem uso de api
+  
+## Comentários da correção
+
+Pessoal, o trabalho de vocês sofreu com o ritmo de desenvolvimento ao longo do tempo. Mesmo contando uma desistência da disciplina, vocês foram o único grupo que mantiveram todos os membros até o início da última sprint, ou seja: dava para fazer um pouco melhor. 
+
+Vejam que, mesmo com tema parecido ao trabalho de DIW, nem foram utilizadas as funcionalidades de API, busca, filtro por jogo etc que podiam ter aproveitado de lá, praticamente pronto. Infelizmente, com isso, os requisitos ficaram muito incompletos. 
+
+Por fim, creio que fica também como ensinamento o fato de que na nossa área, no nosso tempo, e até pelas ferramentas que usamos, não cabe mais afirmar coisas como __estamos esperando fulano chegar com a apresentação__ : usamos repositórios distribuídos, tudo fica online e, mesmo que alguns tenham mais facilidade que outros, qualquer um integrante de um grupo de trabalho precisa saber apresentar ao menos o básico do próprio trabalho.
+
+A nota é individual baseada na inspeção dos commits e do kanban.
+
+
 ## Alunos integrantes da equipe
 
 * Gabriel Machado Araújo Silveira
