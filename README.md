@@ -7,7 +7,11 @@ WePlay é uma plataforma digital para encontro de jogadores com gostos, horário
   - Perfil sem informações de login
   - Sem página específica
   - Sem uso de api
-  
+
+# Nota de apresentação 60/100
+
+**Importante:** A nota-base do grupo é calculada a partir das porcentagens acima. A nota individual leva em consideração ainda a nota de acompanhamento nas reuniões de grupos, a participação efetiva nas tarefas e commits e os descontos por falta nas reuniões. 
+
 ## Comentários da correção
 
 Pessoal, o trabalho de vocês sofreu com o ritmo de desenvolvimento ao longo do tempo. Mesmo contando uma desistência da disciplina, vocês foram o único grupo que mantiveram todos os membros até o início da última sprint, ou seja: dava para fazer um pouco melhor. 
