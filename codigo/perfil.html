@@ -1,49 +1,43 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8"/>
-		<title>Página de perfil</title>
-		
-		
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="perfil.css">
-		
-	</head>
-		
-	<body>	
-		
-	<div class="header">
-		
-		 <h1>Perfil</h1>
-		 <p>
-			admin
-		 </p>
-		 
-		 <img class="avatar" src="avatar.png" alt="Avatar">
-	</div>
-	
-	<div class="about">
-		<h1>Sobre mim</h1>
-		<p>descrição do perfil</p>
-	</div>
-		
-	
-	<div class="detalhes">
-		<h1> Detalhes</h1>
-			
-			<span class="negrito">Nome: </span> <p>admin</p>
-			<span class="negrito">Idade:</span> <p>---------</p>
-			<span class="negrito">Localização:</span> <p>-------</p>
-	</div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Página de perfil</title>
 
-	<div class="footer">
-			
-			<img src="ico_insta.png" class="ico"/>
-			<img src="ico_twitter.png"  class="ico"/>
-			<img src="ico_facebook.png" class="ico"/>
-			
-	</div>			
-	</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="perfil.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Perfil</h1>
+      <p id="user"></p>
+
+      <img class="avatar" src="avatar.png" alt="Avatar" />
+    </div>
+
+    <div class="detalhes">
+      <h1>Detalhes</h1>
+
+      <span class="negrito">Nome: </span>
+      <p id="nome"></p>
+    </div>
+
+    <div class="footer">
+      <img src="ico_insta.png" class="ico" />
+      <img src="ico_twitter.png" class="ico" />
+      <img src="ico_facebook.png" class="ico" />
+    </div>
+    <script>
+      const usuario = JSON.parse(localStorage.getItem("userLogado"));
+
+      document.getElementById("user").innerText = usuario.user;
+      document.getElementById("nome").innerText = usuario.nome;
+    </script>
+  </body>
 </html>
