@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Página de perfil</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="perfil.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <title>Página de perfil</title>
 
-  <body>
-    <div class="header">
-      <h1>Perfil</h1>
-      <p id="user"></p>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-      <img class="avatar" src="avatar.png" alt="Avatar" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="perfil.css" />
+
+</head>
+
+<body>
+  <header>
+    <div>
+      <a class="logo" href="../codigo/index.html">
+        <img src="../assets/logo1500.png" />
+        <p><strong>RETONAR A HOME PAGE</strong></p>
+      </a>
     </div>
+  </header>
+  <div class="header2">
+    <h1>Perfil</h1>
+    <p id="user"></p>
 
-    <div class="detalhes">
-      <h1>Detalhes</h1>
+    <img class="avatar" src="avatar.png" alt="Avatar" />
+  </div>
 
-      <span class="negrito">Nome: </span>
-      <p id="nome"></p>
-    </div>
+  <div class="detalhes">
+    <h1>Detalhes</h1>
 
-    <div class="footer">
-      <img src="ico_insta.png" class="ico" />
-      <img src="ico_twitter.png" class="ico" />
-      <img src="ico_facebook.png" class="ico" />
-    </div>
-    <script>
-      const usuario = JSON.parse(localStorage.getItem("userLogado"));
+    <span class="negrito">Nome: </span>
+    <p id="nome"></p>
+  </div>
 
-      document.getElementById("user").innerText = usuario.user;
-      document.getElementById("nome").innerText = usuario.nome;
-    </script>
-  </body>
+  <div class="footer">
+    <img src="ico_insta.png" class="ico" />
+    <img src="ico_twitter.png" class="ico" />
+    <img src="ico_facebook.png" class="ico" />
+  </div>
+  <script>
+    const usuario = JSON.parse(localStorage.getItem("userLogado"));
+
+    document.getElementById("user").innerText = usuario.user;
+    document.getElementById("nome").innerText = usuario.nome;
+  </script>
+</body>
+
 </html>
