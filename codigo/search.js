@@ -1,4 +1,4 @@
-fetch(`https://api.rawg.io/api/games?key=1ab0c2418c6f436fb12e30f50bea9231&dates=2019-09-01,2019-09-30&platforms=18,1,7`)
+fetch(`https://api.rawg.io/api/games?key=1ab0c2418c6f436fb12e30f50bea9231&id=3328`)
     .then(resposta => {
     return resposta.json()
     })
