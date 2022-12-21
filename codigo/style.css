@@ -112,6 +112,14 @@ header .links {
   display: flex;
   flex-direction: row;
 }
+.btnsair{ 
+  color:  white;
+  margin: 0 5px;
+  background-color:#4c4c4c;
+  border-color:  #4c4c4c;
+  text-shadow: none;
+
+}
 
 header .links a {
   text-decoration: none;
