@@ -169,18 +169,6 @@ input:focus::-moz-placeholder {
   color: rgb(255, 255, 255);
 }
 
-#button-submit {
-  background: url(http://4.bp.blogspot.com/-4MYBYE0i0Xk/VEQYlljvriI/AAAAAAAAAlQ/_TRkRG5EX1c/s1600/search-icon.png)
-    no-repeat;
-  margin-left: -40px;
-  border-width: 0px;
-  width: 40px;
-  height: 50px;
-}
-
-#button-submit:hover {
-  background: url(http://4.bp.blogspot.com/-6S4K8eHPM-c/VEQdf7l84GI/AAAAAAAAAls/j7_kGSpkIfg/s1600/search-icon-hover.png);
-}
 
 /*HEADER FIM*/
 
@@ -251,85 +239,29 @@ input:focus::-moz-placeholder {
 
 /*CARROUSEL FIM */
 
-/*LANCAMENTOS*/
-
-.Lançamentos .input {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 35%;
-  align-items: center;
-  margin-left: 14%;
+/*JOGOS*/
+.card {
+  background: #222;
+  border: 1px solid #dd2476;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+  margin-left: 1%;
+  width: 320px;
+  height: 350px;
+  font-size:14px
+}
+.card img{
+  width: auto;
+  height: 50%; 
 }
 
-.Lançamentos .input h1 {
-  color: var(--white);
-  font-weight: 700;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-.Lançamentos .forma {
-  margin-top: 35px;
-  margin-left: 20%;
-  margin-right: 5%;
-}
-
-.Lançamentos .form {
-  margin-top: 35px;
-}
-
-.Lançamentos {
-  border-top: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#tela {
+  
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
   justify-content: center;
-  background-color: var(--blak);
-  margin-bottom: 0px;
-}
 
-.Lançamentos #cards {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(4, 1fr) !important;
-  padding-bottom: 0;
-}
-
-.Lançamentos #cards .card h1 {
-  font-size: 1.2rem;
-}
-
-.Lançamentos .card {
-  width: 200px !important;
-  height: 150px !important;
-  border-radius: 8px;
-  margin-bottom: 0px;
-  border-color: rgb(255, 251, 250);
-  background-color: #6c7086;
-}
-
-.Lançamentos #cards a {
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.Lançamentos .card img {
-  width: 100%;
-  height: 70%;
-  border-radius: 8px;
-}
-
-.Lançamentos .card button {
-  border-radius: 8px;
-  margin: 0px;
-  background-color: #6c7086;
-  border-style: solid rgb(255, 255, 255);
-  border-color: rgb(255, 255, 255);
-}
-
-.Lançamentos .card button a {
-  color: rgb(255, 250, 249);
 }
 
 /*LANCAMENTOS FIM*/
@@ -357,13 +289,13 @@ input:focus::-moz-placeholder {
 }
 
 .plataformas img {
-  margin-left: 25%;
-  width: 40%;
-  height: 40%;
+  margin-left: 0%;
+  width: 100%;
+  height: 100;
 }
 
 .plataformas .cardss .card h6 {
-  color: rgb(255, 253, 253);
+  color: rgb(2255, 253, 253);
   border-color: rgb(255, 255, 255);
   text-align: center;
   align-items: flex-end;
@@ -712,47 +644,7 @@ input:focus::-moz-placeholder {
     height: 50px;
     top: 100%;
   }
-  .Lançamentos .input {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-  }
-  .Lançamentos .input h1 {
-    display: block;
-    margin-top: 600px;
-    text-align: center;
-  }
-  .Lançamentos .forma {
-    display: none;
-  }
-  .Lançamentos .form {
-    display: none;
-  }
-  .Lançamentos {
-    border-top: 0px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0px;
-  }
-  .Lançamentos #cards {
-    display: table-column;
-    gap: 50px;
-  }
-  .Lançamentos .card {
-    margin-top: 20px;
-  }
-  .Lançamentos #cards a {
-    text-align: center;
-  }
-  .Lançamentos .card iframe {
-    width: 95%;
-    height: 50%;
-    border-radius: 8px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+    
   .plataformas {
     border-top: 0px;
     display: flex;
@@ -984,48 +876,7 @@ section {
   margin-bottom: 0px;
 }
 
-.Lançamentos #cards {
-  display: grid;
-  gap: 50px;
-  grid-template-columns: repeat(3, 1fr);
-  padding-bottom: 0x;
-}
 
-.Lançamentos .card {
-  width: 289px;
-  height: 250px;
-  border-radius: 8px;
-  margin-bottom: 0px;
-  border-color: rgb(255, 251, 250);
-  background-color: #5a7bff;
-}
-
-.Lançamentos #cards a {
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.Lançamentos .card iframe {
-  width: 95%;
-  height: 50%;
-  border-radius: 8px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.Lançamentos .card button {
-  border-radius: 8px;
-  margin: 0px;
-  background-color: #5a7bff;
-  border-style: solid rgb(255, 255, 255);
-  border-color: rgb(255, 255, 255);
-}
-
-.Lançamentos .card button a {
-  color: rgb(255, 250, 249);
-}
 
 /*LANCAMENTOS FIM*/
 
